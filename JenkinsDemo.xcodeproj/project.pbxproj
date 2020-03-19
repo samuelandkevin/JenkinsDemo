@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -153,7 +153,6 @@
 				42FBF3A33764D60AB41F137D /* Pods-JenkinsDemo.debug.xcconfig */,
 				3FE78A94360E247A3BDF4913 /* Pods-JenkinsDemo.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -505,16 +504,18 @@
 			baseConfigurationReference = 42FBF3A33764D60AB41F137D /* Pods-JenkinsDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NE4TXSN2DK;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Guangzhou Jufuns Network Technology Co., Ltd (NE4TXSN2DK)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = FUL8MVVQ4H;
 				INFOPLIST_FILE = JenkinsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lk.JenkinsDemo.JenkinsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = JF.CCTest.jufangbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = CC_dis_profile;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -523,16 +524,18 @@
 			baseConfigurationReference = 3FE78A94360E247A3BDF4913 /* Pods-JenkinsDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = NE4TXSN2DK;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Guangzhou Jufuns Network Technology Co., Ltd (NE4TXSN2DK)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = FUL8MVVQ4H;
 				INFOPLIST_FILE = JenkinsDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.lk.JenkinsDemo.JenkinsDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = JF.CCTest.jufangbao;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = CC_dis_profile;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
